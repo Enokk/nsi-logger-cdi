@@ -1,0 +1,26 @@
+{
+  "name": "nsi-logger-cdi",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "description": "modulo di log su DB per il progetto di CDI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ventu88/nsi-logger-cdi.git"
+  },
+  "author": "m.venturi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ventu88/nsi-logger-cdi/issues"
+  },
+  "homepage": "https://github.com/Ventu88/nsi-logger-cdi#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "nsi-oracle-lib": "github:Ventu88/nsi-oracle-lib"
+  }
+}
