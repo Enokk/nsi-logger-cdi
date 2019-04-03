@@ -29,7 +29,7 @@ function logSomething(source, message) {
     callTwoParamProcedure(process.env.LOG_PROCEDURE, source, message)
         // .then (() => console.log(message))
         .then(null)
-        .catch(() => console.log("Il log non funziona!!"))
+        .catch((err) => console.log(`Il log non funziona: ${err.message}`))
 }
 
 module.exports.logInfo = logInfo;
