@@ -27,7 +27,6 @@ function logError(source, message) {
 
 function logSomething(source, message) {
     callTwoParamProcedure(process.env.LOG_PROCEDURE, source, message)
-        // .then (() => console.log(message))
         .then(null)
         .catch((err) => console.log(`Il log non funziona: ${err.message}`))
 }
